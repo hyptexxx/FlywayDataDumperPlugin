@@ -6,7 +6,7 @@ If you use Flyway + Spring Boot and want to transfer data from your database, yo
 <b>Steps to</b>:
 <h3>1. Connect classgraph into you build.gradle | pom.xml</h3>
 <code>
-  compile group: 'io.github.classgraph', name: 'classgraph', version: '4.8.60'
+	implementation("org.reflections:reflections:0.9.12")
 </code>
 <h3>2. Add </h3>
 <code>
