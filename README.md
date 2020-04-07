@@ -19,6 +19,7 @@ If you use Flyway + Spring Boot and want to transfer data from your database, yo
       }
 </code>
 
+
 <h3>3. Run your application and checkout </h3>
 <code>
    ../resources/db/migration
